@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <link rel="stylesheet"  href="style.css">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <title>StopWatch</title>
+  </head>
+  <body>
+
+      <div class="clock">
+            <h1 id="timer-text" >00:00:00</h1>
+
+            <div class="btn-div">
+              <button  id="play"  onclick="startTimer()" type="button" name="button">
+                    <img src="static/play.png"  alt="loading">
+              </button>
+              <button onclick="pauseTimer()" id="pause" type="button" name="button" style="display: none;">
+                <img src="static/pause.png"   alt="">
+              </button>
+
+
+              <button id="reset" onclick="resetTimer()"type="button" name="button"  style="display: none;">
+                <img src="static/reset.png" alt="">
+              </button>
+
+              <button onclick="flagTimer()" id="flag" type="button" name="button" style="display: none;">
+                <img src = "static/flag.png" >
+              </button>
+
+            </div>
+
+      </div>
+
+
+      <div id="timelaps" >
+
+        </div>
+
+
+
+ <script type="text/javascript" src="script.js">
+
+ </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+
+
+
+}
+.clock{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  background-color: inhert;
+  border : 2px solid white;
+  border-radius : 100%;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction : column;
+  align-items: center;
+  justify-content : center;
+}
+
+#timer-text{
+  color: white;
+  font-size: 60px;
+}
+.btn-div{
+  display: flex;
+  background-color: black;
+
+}
+.btn-div button{
+  border: 0;
+  background-color: black;
+  margin: 2px;
+}
+.btn-div button img{
+  height: 70px;
+    width: 70px;
+}
+
+#timelaps {
+    display: flex;
+    color : white;
+    justify-content : top;
+    align-items : center;
+    flex-direction: column;
+}
+.laps{
+    margin: 5px;
+}
+.laps img{
+   width : 20px;
+   height: 20px;
+   opacity: 0.8;
+}
